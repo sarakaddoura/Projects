@@ -9,4 +9,3 @@ plotly
 scipy
 seaborn
 spacy
-streamlit
