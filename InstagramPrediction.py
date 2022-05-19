@@ -11,7 +11,6 @@ warnings.filterwarnings('ignore')
 import streamlit.components.v1 as components
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import PassiveAggressiveRegressor
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
 ### Page Layout
