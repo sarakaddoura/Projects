@@ -5,6 +5,7 @@ import pandas as pd
 import seaborn as sns
 from PIL import Image
 import streamlit as st
+import statsmodels.api as sm
 import plotly.express as px
 import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
