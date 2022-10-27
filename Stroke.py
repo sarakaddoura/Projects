@@ -81,7 +81,7 @@ if selected == "Patient Background":
 
     ### Columns
 
-    info = st.columns(3)
+    info = st.columns(4)
 
     theme_bad = {'bgcolor': '#f9f9f9','title_color': 'red','content_color': 'red','icon_color': 'red', 'icon': 'fa fa-user-friends'}
     theme_neutral = {'bgcolor': '#f9f9f9','title_color': 'pink','content_color': 'pink','icon_color': 'pink', 'icon': 'fa fa-female'}
