@@ -81,20 +81,20 @@ if selected == "Patient Background":
 
     ### Columns
 
-    info = st.columns(4)
+    info = st.columns(3)
 
     theme_bad = {'bgcolor': '#f9f9f9','title_color': 'red','content_color': 'red','icon_color': 'red', 'icon': 'fa fa-user-friends'}
     theme_neutral = {'bgcolor': '#f9f9f9','title_color': 'pink','content_color': 'pink','icon_color': 'pink', 'icon': 'fa fa-female'}
     theme_good = {'bgcolor': '#EFF8F7','title_color': 'lightskyblue','content_color': 'lightskyblue','icon_color': 'lightskyblue', 'icon': 'fa fa-male'}
 
 
-    with info[0]:
+    with info[1]:
         hc.info_card(title= '# of Patients', content = value8, theme_override = theme_bad)
 
-    with info[1]:
+    with info[2]:
         hc.info_card(title = 'Females',content= value4 , sentiment='good', theme_override = theme_neutral)
 
-    with info[2]:
+    with info[3]:
         hc.info_card(title = 'Males',content= value6 , sentiment='good', theme_override = theme_good)
 
 
